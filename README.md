@@ -172,25 +172,38 @@ Sprint 1'deki terminal PoC, dark temalı üç kolonlu bir React arayüzüne (Rai
 
 ### Sprint 3 (Final)
 
-**Tarih Aralığı:** [başlangıç] – [bitiş]
+**Tarih Aralığı:** 20 Temmuz 2026 – 2 Ağustos 2026 (kesin teslim: 2 Ağustos Pazar 23:59)
+
+**Sprint Hedefi**
+Sprint 2'den kalan iki story'yi kapatmak, ürünü canlıya almak ve teslim için gereken tüm materyalleri (video, final dökümantasyon) tamamlamak.
 
 **Backlog Düzeni ve Story Seçimleri**
-*(Bu bölüm Sprint 3 planlamasında güncellenecektir)*
+
+| Story | Açıklama | Sahip |
+|---|---|---|
+| [ ] **US-05 (devir)** – Gerçek Gemini entegrasyonu | `backend/app/services/llm.py` içindeki `_generate_with_gemini` fonksiyonunun `google-generativeai` ile gerçek çağrı yapacak şekilde tamamlanması; TripPlan JSON'unun response-schema ile doğrudan LLM'den üretilmesi (mock planlayıcı fallback olarak kalır). | **Erkin** |
+| [ ] **US-08 (devir)** – Booking.com & Skyscanner deep-link | `TripPanel`'daki "Proceed to Booking" butonunun, plandaki tarih/lokasyon/otel bilgilerinden gerçek Booking.com ve Skyscanner sorgu URL'lerini üretip yeni sekmede açacak şekilde bağlanması. | **Kerem** |
+| [ ] **US-10** – Canlı demo deploy | Backend (FastAPI) ve frontend'in (Vite build) bir hosting ortamına deploy edilmesi; README'deki "Canlı Demo Linki" placeholder'ının gerçek URL ile güncellenmesi. | **Kerem** |
+| [ ] **US-11** – Hata yönetimi & UX cilası | API hata durumlarında kullanıcıya daha net geri bildirim, loading/empty state iyileştirmeleri, temel mobil/responsive düzenlemeler. | **Erkin** |
+| [ ] **US-12** – Sunum videosu | Uçtan uca demo senaryosunun (ör. "Bodrum'da diş implantı") video kaydının alınıp YouTube'a yüklenmesi; README'deki video linkinin güncellenmesi. | **Kerem** |
+| [ ] **US-13** – Final QA & teslim kontrol listesi | README/PRD tutarlılık kontrolü, "Önemli Kurallar" bölümündeki teslim şartlarının (public repo, video, form) sağlandığının doğrulanması, son uçtan uca regresyon testi. | **Erkin** |
+
+> Not: US-05 ve US-08, Sprint 2'de kısmi kaldığı için buraya devredildi; sahiplik ataması ekip kapasitesi netleşince güncellenebilir.
 
 **Daily Scrum Notları**
-[...]
+_(Sprint boyunca günlük olarak doldurulacaktır.)_
 
 **Sprint Board Güncellemesi**
-[...]
+_(Sprint 3 Trello görünümü sprint sonunda eklenecektir.)_
 
 **Ürün Durumu**
-[...]
+_(Sprint sonunda: canlı demo linki + video ile güncellenecektir.)_
 
 **Sprint Review**
-[...]
+_(Sprint sonunda doldurulacaktır.)_
 
 **Sprint Retrospective**
-[...]
+_(Sprint sonunda doldurulacaktır.)_
 
 ---
 
