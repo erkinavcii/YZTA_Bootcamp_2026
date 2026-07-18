@@ -1,0 +1,7 @@
+[
+  { "id": "salmakis-resort",   "name": "Salmakis Resort & Spa", "city": "Bodrum",   "region": "Muğla",    "nightlyGBP": 122 },
+  { "id": "bodrum-bay-hotel",  "name": "Bodrum Bay Hotel",      "city": "Bodrum",   "region": "Muğla",    "nightlyGBP": 90 },
+  { "id": "fethiye-marina",    "name": "Fethiye Marina Hotel",  "city": "Fethiye",  "region": "Muğla",    "nightlyGBP": 85 },
+  { "id": "bosphorus-palace",  "name": "Bosphorus Palace Hotel","city": "İstanbul", "region": "İstanbul", "nightlyGBP": 140 },
+  { "id": "taksim-central",    "name": "Taksim Central Hotel",  "city": "İstanbul", "region": "İstanbul", "nightlyGBP": 100 }
+]

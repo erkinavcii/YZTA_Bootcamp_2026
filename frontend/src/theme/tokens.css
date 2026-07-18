@@ -1,0 +1,54 @@
+:root {
+  --bg: #05070f;
+  --card: rgba(20, 27, 44, 0.72);
+  --card-2: rgba(30, 39, 60, 0.55);
+  --panel: rgba(11, 16, 29, 0.92);
+  --rail: rgba(9, 13, 24, 0.9);
+  --line: rgba(255, 255, 255, 0.08);
+  --line-2: rgba(255, 255, 255, 0.05);
+  --text: #e9eef8;
+  --muted: #93a0b8;
+  --muted-2: #6f7d97;
+  --g1: #7b5cff;
+  --g2: #2f7bff;
+  --g3: #17cfd8;
+  --grad: linear-gradient(135deg, #7b5cff 0%, #2f7bff 52%, #17cfd8 100%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Segoe UI', Inter, system-ui, -apple-system, sans-serif;
+  color: var(--text);
+  background:
+    radial-gradient(60% 55% at 82% 12%, rgba(30, 90, 160, 0.35), transparent 60%),
+    radial-gradient(55% 50% at 8% 92%, rgba(23, 207, 216, 0.2), transparent 60%),
+    radial-gradient(40% 40% at 60% 100%, rgba(123, 92, 255, 0.16), transparent 60%),
+    var(--bg);
+}
+
+.stage {
+  min-height: 100vh;
+  padding: 34px 22px 26px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.proto-note {
+  width: min(1024px, 100%);
+  text-align: center;
+  color: var(--muted-2);
+  font-size: 12px;
+  margin: 2px 0 0;
+}
