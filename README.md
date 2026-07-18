@@ -128,25 +128,38 @@ Bu sprintte projenin temel yapay zeka planlama motorunu ve veri katmanını kurm
 
 ### Sprint 2
 
-**Tarih Aralığı:** [başlangıç] – [bitiş]
+**Tarih Aralığı:** _(kesinleştirilecek — öneri: 13–26 Temmuz 2026)_
+
+**Sprint Hedefi**
+Sprint 1'de terminal üzerinde çalışan Gemini PoC'yi, `assets/product_sprint1.png` tasarımına uygun **React tabanlı web arayüzüne** taşımak; sohbet panelini ve "Trip Itinerary" (seyahat + tedavi planı) panelini yapay zeka çıktısıyla besleyen uçtan uca bir demo çıkarmak.
 
 **Backlog Düzeni ve Story Seçimleri**
-*(Bu bölüm Sprint 2 planlamasında güncellenecektir)*
+- [ ] **US-01 – Frontend iskeleti:** React (Vite + TypeScript) kurulumu, dark tema tasarım sistemi (renk/tipografi) ve üç kolonlu ana layout (rail + sohbet + plan paneli).
+- [ ] **US-02 – Sohbet arayüzü:** Mesaj listesi, kullanıcı/asistan balonları, konu başlığı çipi ve mesaj gönderme alanı.
+- [ ] **US-03 – Trip Itinerary paneli:** Itinerary Overview, Travel, Accommodation, Medical Profile, tedavi maliyeti ve tarih kartlarının bileşen olarak kurulması.
+- [ ] **US-04 – Backend API katmanı:** Terminal PoC'deki Gemini mantığının REST endpoint'lerine taşınması (`/chat`, `/plan`) — FastAPI veya Node.
+- [ ] **US-05 – Yapılandırılmış AI çıktısı:** Gemini'nin sohbetten paneli dolduracak yapılandırılmış plan JSON'u üretmesi (şema tanımı + parse).
+- [ ] **US-06 – Klinik eşleştirme motoru v1:** Mock veri üzerinde işlem türü + bölge + bütçeye göre klinik önerme mantığı.
+- [ ] **US-07 – Mock veri genişletme:** Muğla ve İstanbul için klinik/otel/uçuş mock veri setinin zenginleştirilmesi.
+- [ ] **US-08 – Yasal uyarı & rezervasyon iskeleti:** Disclaimer bileşeni ve "Proceed to Booking" için Booking.com/Skyscanner deep-link iskeleti.
+- [ ] **US-09 – Uçtan uca entegrasyon:** Frontend ↔ Backend bağlanması ve "Bodrum diş implantı" senaryosuyla demo.
+
+> Not: Story'ler öncelik sırasındadır; ekip kapasitesine göre US-08/US-09 Sprint 3'e taşınabilir.
 
 **Daily Scrum Notları**
-[...]
+_(Sprint boyunca günlük olarak doldurulacaktır.)_
 
 **Sprint Board Güncellemesi**
-[...]
+_(Sprint 2 Trello görünümü sprint sonunda eklenecektir.)_
 
 **Ürün Durumu**
-[...]
+_(Sprint sonunda: React arayüzü + canlı plan paneli demo görseli eklenecektir.)_
 
 **Sprint Review**
-[...]
+_(Sprint sonunda doldurulacaktır.)_
 
 **Sprint Retrospective**
-[...]
+_(Sprint sonunda doldurulacaktır.)_
 
 ---
 

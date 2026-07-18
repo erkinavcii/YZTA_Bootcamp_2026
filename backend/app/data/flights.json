@@ -1,0 +1,6 @@
+[
+  { "id": "lhr-bjv", "origin": "LHR", "originCity": "London",   "destination": "BJV", "destinationCity": "Bodrum",   "region": "Muğla",    "airline": "Turkish Airlines", "priceGBP": 245 },
+  { "id": "saw-bjv", "origin": "SAW", "originCity": "Istanbul", "destination": "BJV", "destinationCity": "Bodrum",   "region": "Muğla",    "airline": "AJet",             "priceGBP": 60 },
+  { "id": "lhr-ist", "origin": "LHR", "originCity": "London",   "destination": "IST", "destinationCity": "Istanbul", "region": "İstanbul", "airline": "Turkish Airlines", "priceGBP": 210 },
+  { "id": "cdg-ist", "origin": "CDG", "originCity": "Paris",    "destination": "IST", "destinationCity": "Istanbul", "region": "İstanbul", "airline": "Turkish Airlines", "priceGBP": 180 }
+]

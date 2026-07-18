@@ -1,0 +1,92 @@
+[
+  {
+    "id": "elite-dental-bodrum",
+    "name": "Elite Dental Clinic",
+    "city": "Bodrum",
+    "region": "Muğla",
+    "procedures": ["dental-implant", "teeth-whitening"],
+    "rating": 4.9,
+    "priceGBP": { "dental-implant": 3000, "teeth-whitening": 450 },
+    "doctorId": "aylin-kara"
+  },
+  {
+    "id": "aegean-smile-bodrum",
+    "name": "Aegean Smile Center",
+    "city": "Bodrum",
+    "region": "Muğla",
+    "procedures": ["dental-implant", "teeth-whitening"],
+    "rating": 4.7,
+    "priceGBP": { "dental-implant": 2700, "teeth-whitening": 400 },
+    "doctorId": "emre-sahin"
+  },
+  {
+    "id": "fethiye-dental-studio",
+    "name": "Fethiye Dental Studio",
+    "city": "Fethiye",
+    "region": "Muğla",
+    "procedures": ["dental-implant", "teeth-whitening"],
+    "rating": 4.6,
+    "priceGBP": { "dental-implant": 2500, "teeth-whitening": 380 },
+    "doctorId": "deniz-yildiz"
+  },
+  {
+    "id": "bodrum-aesthetics",
+    "name": "Bodrum Aesthetics",
+    "city": "Bodrum",
+    "region": "Muğla",
+    "procedures": ["botox", "dermal-filler"],
+    "rating": 4.8,
+    "priceGBP": { "botox": 250, "dermal-filler": 400 },
+    "doctorId": "selin-aksoy"
+  },
+  {
+    "id": "fethiye-medestetik",
+    "name": "Fethiye MedEstetik",
+    "city": "Fethiye",
+    "region": "Muğla",
+    "procedures": ["botox", "dermal-filler"],
+    "rating": 4.5,
+    "priceGBP": { "botox": 220, "dermal-filler": 360 },
+    "doctorId": "kaan-demir"
+  },
+  {
+    "id": "istanbul-dental-group",
+    "name": "Istanbul Dental Group",
+    "city": "İstanbul",
+    "region": "İstanbul",
+    "procedures": ["dental-implant", "teeth-whitening"],
+    "rating": 4.8,
+    "priceGBP": { "dental-implant": 2800, "teeth-whitening": 420 },
+    "doctorId": "mert-kaya"
+  },
+  {
+    "id": "bosphorus-dental",
+    "name": "Bosphorus Dental",
+    "city": "İstanbul",
+    "region": "İstanbul",
+    "procedures": ["dental-implant", "teeth-whitening"],
+    "rating": 4.9,
+    "priceGBP": { "dental-implant": 3200, "teeth-whitening": 480 },
+    "doctorId": "zeynep-arslan"
+  },
+  {
+    "id": "istanbul-aesthetic-clinic",
+    "name": "Istanbul Aesthetic Clinic",
+    "city": "İstanbul",
+    "region": "İstanbul",
+    "procedures": ["botox", "dermal-filler"],
+    "rating": 4.9,
+    "priceGBP": { "botox": 280, "dermal-filler": 450 },
+    "doctorId": "ece-tunc"
+  },
+  {
+    "id": "levent-beauty-med",
+    "name": "Levent Beauty & Med",
+    "city": "İstanbul",
+    "region": "İstanbul",
+    "procedures": ["botox", "dermal-filler"],
+    "rating": 4.6,
+    "priceGBP": { "botox": 240, "dermal-filler": 380 },
+    "doctorId": "burak-oz"
+  }
+]

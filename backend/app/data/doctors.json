@@ -1,0 +1,11 @@
+[
+  { "id": "aylin-kara",    "name": "Dr. Aylin Kara",    "specialty": "Prosthodontist",      "yearsExperience": 15, "rating": 4.9, "boardCertified": true,  "initials": "AK" },
+  { "id": "emre-sahin",    "name": "Dr. Emre Şahin",    "specialty": "Implantologist",      "yearsExperience": 12, "rating": 4.7, "boardCertified": true,  "initials": "EŞ" },
+  { "id": "deniz-yildiz",  "name": "Dr. Deniz Yıldız",  "specialty": "Dentist",             "yearsExperience": 10, "rating": 4.6, "boardCertified": true,  "initials": "DY" },
+  { "id": "selin-aksoy",   "name": "Dr. Selin Aksoy",   "specialty": "Aesthetic Physician", "yearsExperience": 11, "rating": 4.8, "boardCertified": true,  "initials": "SA" },
+  { "id": "kaan-demir",    "name": "Dr. Kaan Demir",    "specialty": "Dermatologist",       "yearsExperience": 9,  "rating": 4.5, "boardCertified": true,  "initials": "KD" },
+  { "id": "mert-kaya",     "name": "Dr. Mert Kaya",     "specialty": "Oral Surgeon",        "yearsExperience": 14, "rating": 4.8, "boardCertified": true,  "initials": "MK" },
+  { "id": "zeynep-arslan", "name": "Dr. Zeynep Arslan", "specialty": "Prosthodontist",      "yearsExperience": 16, "rating": 4.9, "boardCertified": true,  "initials": "ZA" },
+  { "id": "ece-tunc",      "name": "Dr. Ece Tunç",      "specialty": "Aesthetic Physician", "yearsExperience": 13, "rating": 4.9, "boardCertified": true,  "initials": "ET" },
+  { "id": "burak-oz",      "name": "Dr. Burak Öz",      "specialty": "Dermatologist",       "yearsExperience": 8,  "rating": 4.6, "boardCertified": true,  "initials": "BÖ" }
+]
